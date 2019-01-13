@@ -1,0 +1,14 @@
+package unityengine.experimental.globalillumination;
+
+@:native("UnityEngine.Experimental.GlobalIllumination.PointLight") @:final
+extern class PointLight {
+	public var instanceID : Int;
+	public var shadow : Bool;
+	public var mode : unityengine.experimental.globalillumination.LightMode;
+	public var position : unityengine.Vector3;
+	public var color : unityengine.experimental.globalillumination.LinearColor;
+	public var indirectColor : unityengine.experimental.globalillumination.LinearColor;
+	public var range : Float;
+	public var sphereRadius : Float;
+	public var falloff : unityengine.experimental.globalillumination.FalloffType;
+}
